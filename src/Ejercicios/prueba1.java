@@ -9,7 +9,7 @@ public class prueba1 {
 		//Podría ser mas eficiente pidiendo los números antes de entrar en el switch. Pero haciendolo dentro del switch,
 		//puedo sacar mensaje personalizado para el usuario, dependiendo de que opción haya escogido.
 		
-		//Resumen, se podría optimizar bastante.
+		//Resumen, se podría optimizar bastante. prueba
 		
 		System.out.println("Bienvenido a la Calkkuladora.");
 		
