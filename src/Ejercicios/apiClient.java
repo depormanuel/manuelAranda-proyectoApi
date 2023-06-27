@@ -16,7 +16,7 @@ public class apiClient {
 			conn.connect();
 			int tiempoRespuesta = conn.getResponseCode();
 			if(tiempoRespuesta != 200) {
-				throw new RuntimeException("HTTPSResponseCode: 500");
+				throw new RuntimeException("HTTPSResponseCode: "+tiempoRespuesta);
 			} else {
 				StringBuilder informacion = new StringBuilder();
 				Scanner sc = new Scanner(url.openStream());
